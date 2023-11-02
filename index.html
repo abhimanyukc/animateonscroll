@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--cdn source of css by animation on scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Animation on Scrolling</title>
+</head>
+<body>
+    <h1>Animation while Scrolling</h1>
+
+     <div class="banner"></div>
+
+    <div class="container">
+        
+        <div class="box" data-aos="fade-up">
+            BOX 01
+        </div>
+
+        <div class="box" data-aos="fade-down">
+            BOX 02
+        </div>
+
+        <div class="box" data-aos="fade-left">
+            BOX 03
+        </div>
+
+        <div class="box" data-aos="fade-right">
+            BOX 04
+        </div>
+
+        <div class="box" data-aos="flip-left">
+            BOX 05
+        </div>
+
+        <div class="box" data-aos="flip-right">
+            BOX 06
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            BOX 07
+        </div>
+
+        <div class="box" data-aos="zoom-out">
+            BOX 08
+        </div>
+
+        <div class="box" data-aos="flip-left" duration="4000">
+            BOX 9
+        </div>
+
+        <div class="box" data-aos="flip-right" duration="4000">
+            BOX 10
+        </div>
+
+    
+    </div>
+    <!--cdn source of js by animation on scroll-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!--tag to initiaite  animation -->
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
